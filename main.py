@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+w#!/usr/bin/env python
 
 import subprocess
 import speech_recognition as sr
@@ -44,8 +44,7 @@ if sys.stdout.isatty():
 else:
     R = G = C = W = Y = M = B = ''
 
-ascii_art_path = '/Users/gavinmorrison/Desktop/Audify/audify/ascii_art.txt'
-display_art_copy.display_ascii_art(ascii_art_path)
+
 
 
 def detect_anomalies(data, reference_spectrum=None, threshold_factor=0.8):
@@ -381,9 +380,9 @@ def main():
         return
 
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    waveform_plot_path = f'/Users/gavinmorrison/Desktop/Audify/Report/waveform_{timestamp}.png'
-    spectrum_plot_path = f'/Users/gavinmorrison/Desktop/Audify/Report/spectrum_{timestamp}.png'
-    report_path = f'/Users/gavinmorrison/Desktop/Audify/Report/report_{timestamp}.txt'
+    waveform_plot_path = f'/Enter/Folder/Path/waveform_{timestamp}.png'
+    spectrum_plot_path = f'/Enter/Folder/Path/spectrum_{timestamp}.png'
+    report_path = f'/Enter/Folder/Path/report_{timestamp}.txt'
 
     audio_samples, sample_rate, num_channels = read_wave_file(song_path)
     if audio_samples is None:
