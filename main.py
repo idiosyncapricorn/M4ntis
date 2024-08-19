@@ -176,7 +176,7 @@ class ControlPanel:
 
     def choose_song(self):
         print(f"{Y}Options:{W}")
-        print(f"1. {G}Upload Mp3{W}")
+        print(f"1. {G}Anomaly Detection{W}")
         print(f"2. {G}Speech To Text{W}")
         print(f"3. {G}Visualizer{W}")
         print(f"4. {G}Honeypot{W}")
