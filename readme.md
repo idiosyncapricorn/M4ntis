@@ -1,5 +1,3 @@
-Here’s the `README.md` formatted for your Mantis toolset:
-
 ```markdown
 # Mantis Toolset
 
