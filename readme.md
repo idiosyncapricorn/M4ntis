@@ -1,4 +1,7 @@
 ```markdown
+
+----
+
 # Mantis Toolset
 
 Welcome to the Mantis Toolset!
@@ -25,3 +28,5 @@ Feel free to explore and modify the toolset as needed.
 You can save this content as `README.md` for your project! Let me know if you want any additional details included.
 
 (https://github.com/user-attachments/assets/d0395951-9226-4610-ab8a-992f30044b61)
+
+----
